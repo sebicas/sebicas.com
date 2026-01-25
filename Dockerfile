@@ -30,7 +30,7 @@ COPY --from=builder /app/dist ./dist
 EXPOSE 3000
 
 # Healthcheck configuration
-HEALTHCHECK --interval=60s --timeout=10s --start-period=60s --retries=3 \
+HEALTHCHECK --interval=60s --timeout=10s --start-period=30s --retries=3 \
   CMD curl --fail http://localhost:3000/ || exit 1
 
 # Start the server
