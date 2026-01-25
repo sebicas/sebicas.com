@@ -1,7 +1,7 @@
 # Nixpacks configuration for Vite React static site
 
 [phases.setup]
-nixPkgs = ["nodejs_20", "npm-9_x"]
+nixPkgs = ["nodejs_20", "npm-9_x", "curl"]
 
 [phases.install]
 cmds = ["npm ci || npm install"]
@@ -11,3 +11,9 @@ cmds = ["npm run build"]
 
 [start]
 cmd = "npx serve dist -l ${PORT:-3000}"
+
+[healthcheck]
+cmd = "curl --fail http://localhost:${PORT:-3000}/ || exit 1"
+interval = "30s"
+timeout = "5s"
+startPeriod = "10s"
