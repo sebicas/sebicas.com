@@ -30,7 +30,7 @@ const About: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold text-white mb-3">Costa Rica</h3>
             <p className="text-graytext leading-relaxed">
-              Currently enjoying the "Pura Vida" lifestyle in San Jose, Costa Rica. Building businesses and memories in paradise.
+              Currently enjoying the "Pura Vida" lifestyle in Costa Rica. Building businesses and memories in paradise.
             </p>
           </div>
 

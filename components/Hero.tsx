@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
 
             <p className="text-graytext text-lg max-w-2xl mx-auto leading-relaxed">
               I am a serial internet entrepreneur, married to an amazing woman and have 2 beautifull kids. 
-              Currently living in <span className="text-white font-medium">San Jose, Costa Rica</span>. 
+              Currently living in <span className="text-white font-medium">Costa Rica</span>. 
               Originally Argentinean, but lived in USA, Canada, and UAE for many years.
             </p>
           </div>
