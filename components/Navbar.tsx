@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
 
@@ -22,9 +23,9 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold tracking-tighter">
+        <Link to="/" className="text-2xl font-bold tracking-tighter">
           sebicas<span className="text-primary">.com</span>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 items-center">

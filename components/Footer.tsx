@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { SOCIAL_LINKS } from '../constants';
 
 const Footer: React.FC = () => {
@@ -21,6 +22,16 @@ const Footer: React.FC = () => {
                 <link.icon size={24} />
               </a>
             ))}
+        </div>
+
+        <div className="flex justify-center space-x-6 mb-6 text-sm">
+          <Link to="/terms-of-service" className="text-gray-400 hover:text-primary transition-colors">
+            Terms of Service
+          </Link>
+          <span className="text-gray-700">|</span>
+          <Link to="/privacy-policy" className="text-gray-400 hover:text-primary transition-colors">
+            Privacy Policy
+          </Link>
         </div>
 
         <p className="text-gray-600 text-sm">
