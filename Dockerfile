@@ -34,4 +34,4 @@ HEALTHCHECK --interval=60s --timeout=10s --start-period=30s --retries=3 \
   CMD curl --fail http://localhost:3000/ || exit 1
 
 # Start the server
-CMD ["serve", "dist", "-l", "3000"]
+CMD ["serve", "dist", "-s", "-l", "3000"]

@@ -10,7 +10,7 @@ cmds = ["npm ci || npm install"]
 cmds = ["npm run build"]
 
 [start]
-cmd = "npx serve dist -l ${PORT:-3000}"
+cmd = "npx serve dist -s -l ${PORT:-3000}"
 
 [healthcheck]
 cmd = "curl --fail http://localhost:${PORT:-3000}/ || exit 1"
