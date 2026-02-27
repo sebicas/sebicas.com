@@ -13,9 +13,12 @@ const TermsOfService: React.FC = () => {
         </h1>
         <div className="prose prose-invert max-w-none text-graytext space-y-8 leading-relaxed">
           <p>
-            Welcome to the Postiz website (the "Site"). By accessing or using
-            the Site, you agree to comply with and be bound by the following
-            terms and conditions ("Terms of Service").
+            Welcome to the Postiz website (the "Site") and the Postiz Sebicas
+            application (the "App"). By accessing or using the Site or the App,
+            you agree to comply with and be bound by the following terms and
+            conditions ("Terms of Service"). References to "Postiz" in these
+            Terms of Service include the Postiz Sebicas app and all related
+            services.
           </p>
 
           <h2 className="text-2xl font-bold text-white mt-10 mb-4">

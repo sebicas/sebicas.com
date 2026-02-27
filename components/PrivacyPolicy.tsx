@@ -12,7 +12,7 @@ const PrivacyPolicy: React.FC = () => {
         <div className="prose prose-invert max-w-none text-graytext space-y-6 leading-relaxed">
 
           <p>
-            At Postiz ("Company," "we," "us," or "our"), we are committed to protecting the privacy and security of our users' personal information. This Privacy Policy outlines how we collect, use, and safeguard the personal information collected on our website. By accessing or using our website, registering for the Website, and providing your personal information, you agree to the terms and conditions of this Privacy Policy.
+            At Postiz ("Company," "we," "us," or "our"), we are committed to protecting the privacy and security of our users' personal information. This Privacy Policy applies to the Postiz website, the Postiz Sebicas application (the "App"), and all related services. It outlines how we collect, use, and safeguard the personal information collected on our website and through the Postiz Sebicas app. By accessing or using our website, the Postiz Sebicas app, registering for the Website, and providing your personal information, you agree to the terms and conditions of this Privacy Policy.
           </p>
 
           {/* Section 1 */}
