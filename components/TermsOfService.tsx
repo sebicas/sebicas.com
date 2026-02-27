@@ -13,7 +13,7 @@ const TermsOfService: React.FC = () => {
         </h1>
         <div className="prose prose-invert max-w-none text-graytext space-y-8 leading-relaxed">
           <p>
-            Welcome to the Postiz website (the "Site") and the Postiz Sebicas
+            Welcome to the Sebicas website (the "Site") and the Postiz Sebicas
             application (the "App"). By accessing or using the Site or the App,
             you agree to comply with and be bound by the following terms and
             conditions ("Terms of Service"). References to "Postiz" in these
@@ -162,10 +162,10 @@ const TermsOfService: React.FC = () => {
             If you have any questions or concerns about these Terms of Service,
             please contact us at{" "}
             <a
-              href="mailto:info@postiz.com"
+              href="mailto:info@sebicas.com"
               className="text-primary hover:underline"
             >
-              info@postiz.com
+              info@sebicas.com
             </a>
             .
           </p>
